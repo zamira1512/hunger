@@ -1,0 +1,39 @@
+@import url(../fonts/opensans/stylesheet.css);
+@import url(../fonts/banny/style.css);
+@import url(../libs/btstrp/bootstrap-grid.min.css);
+@import url(../libs/owl/css/owl.carousel.min.css);
+@import url(../libs/owl/css/owl.theme.default.min.css);
+@import url(../css/all.min.css);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  font-family: "Open Sans", sans-serif ;
+}
+
+.container{
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+@import "header";
+@import "home";
+@import "about";
+@import "team";
+@import "book";
+@import "slider";
+@import "menu";
+@import "events";
+@import "image";
+@import "contact";
+@import "footer";
